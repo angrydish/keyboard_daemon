@@ -1,0 +1,6 @@
+
+start=$SECONDS
+
+echo $(( SECONDS - start ))
+
+xinput --test-xi2 --root > file.log &
